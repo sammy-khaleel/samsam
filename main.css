@@ -1,0 +1,16 @@
+.outerbox {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+}
+
+.outerbox:after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    border:50px solid green;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
